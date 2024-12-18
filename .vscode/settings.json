@@ -1,0 +1,145 @@
+{
+  // 编辑器设置
+  "editor.suggestSelection": "first",
+  "editor.insertSpaces": true,
+  // #每次保存的时候将代码按eslint格式进行修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.tabCompletion": "on",
+  "editor.autoIndent": "advanced",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.language.brackets": [],
+  "editor.semanticTokenColorCustomizations": {},
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.rulers": [],
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.automationProfile.windows": null,
+  // 工作台和文件浏览器设置
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.settings.applyToAllProfiles": [],
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "window.commandCenter": true,
+  // Git 设置
+  "git.enabled": true,
+  // Prettier 设置
+  // #去掉代码结尾的分号
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 150,
+  // 去掉对象最后一个属性的尾逗号
+  "prettier.trailingComma": "none",
+  // TypeScript 设置
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.autoClosingQuotes": "always",
+    "typescript.preferences.quoteStyle": "double"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.format.enable": true,
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  "typescript.preferences.quoteStyle": "double",
+  "task.slowProviderWarning": [
+    "typescript"
+  ],
+  // JavaScript 设置
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.referencesCodeLens.enabled": true,
+  // Vetur 设置（仅当[vue]的editor.defaultFormatter为octref.vetur时生效）
+  "vetur.format.options.useTabs": false,
+  "vetur.format.options.tabSize": 2,
+  // vue中script标签初始缩进，开启会和eslint的缩进校验冲突
+  "vetur.format.styleInitialIndent": true,
+  // vue中style标签初始缩进，开启会和eslint的缩进校验冲突
+  "vetur.format.scriptInitialIndent": false,
+  // 针对vue中的template部分的风格模版，也可以是：prettier
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  // 针对vue中的script部分的风格模版，或者prettier
+  // "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "vetur.format.defaultFormatter.js": "vscode-typescript", // none/prettier/prettier-eslint/vscode-typescript
+  // 针对vue中的style部分的风格模版
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.sass": "sass-formatter",
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+  "vetur.format.defaultFormatter.ts": "prettier",
+  "vetur.format.defaultFormatterOptions": {
+    // 配置不能和prettier的配置冲突，eslint校验的时候采用的prettier的风格
+    "js-beautify-html": {
+      // 给js-beautify-html设置属性隔断
+      "tabWidth": 2,
+      // 属性换行
+      // 对属性进行换行。
+      // - auto: 仅在超出行长度时才对属性进行换行。
+      // - force: 对除第一个属性外的其他每个属性进行换行。
+      // - force-aligned: 对除第一个属性外的其他每个属性进行换行，并保持对齐。
+      // - force-expand-multiline: 对每个属性进行换行。
+      // - aligned-multiple: 当超出折行长度时，将属性进行垂直对齐。
+      "wrap_attributes": "force-expand-multiline",
+      //换行长度
+      "wrap-line-length": 1000,
+      "end_with_newline": false
+    },
+    "prettier": {
+      "semi": true,
+      "singleQuote": false
+    },
+    "prettyhtml": {
+      "printWidth": 1000,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    }
+  },
+  "vetur.validation.template": false,
+  // 其他语言设置
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced"
+  },
+  // 文件关联设置
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript",
+    "*.vue": "vue",
+    "*.nvue": "vue"
+  },
+  // Emmet 设置
+  "emmet.triggerExpansionOnTab": false,
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  // HTML 和 CSS 设置
+  "html.format.wrapAttributes": "aligned-multiple",
+  "css.lint.duplicateProperties": "warning",
+  // 其他设置
+  "eslint.format.enable": true,
+  "http.proxyAuthorization": null,
+  "workbench.colorCustomizations": []
+}

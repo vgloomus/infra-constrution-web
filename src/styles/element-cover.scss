@@ -1,0 +1,56 @@
+/*
+ * @Description  : element组件样式覆盖class, 相应组件上增加对应class
+ * @Author       : 吕宗军
+ * @Date         : 2023-04-11 10:42:18
+ * @LastEditTime: 2024-09-12 19:08:56
+ * @LastEditors: lvzj lvzj@glodon.com
+ * @FilePath     : \infra-construction-web\src\styles\element-cover.scss
+ */
+// 修复平台覆盖tree图标问题
+// .main-content-wrap div.el-tree .el-tree-node__expand-icon:before {
+//   // content: '\e791';
+//   content: "\e8be";
+// }
+// el-dialog弹窗覆盖样式样式
+.dialog_cover {
+  .el-dialog {
+    border-radius: 8px;
+    .el-dialog__header {
+      padding: 12px 24px;
+      border-bottom: 1px solid #dcdfe6;
+      .el-dialog__title {
+        color: #33343b;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+      }
+      .el-dialog__headerbtn {
+        right: 24px;
+        top: 12px;
+        .el-dialog__close {
+          color: #4e5969;
+        }
+      }
+    }
+    .el-dialog__body {
+      padding: 20px;
+    }
+  }
+  button.el-button {
+    height: 32px;
+    padding: 6px 16px;
+  }
+  // .el-tree {
+  //   .el-tree-node__expand-icon:before {
+  //     content: '\e791';
+  //   }
+  // }
+  // 底部操作无边框设置
+  &.footer-no-border {
+    .el-dialog {
+      .el-dialog__footer {
+        border: 0;
+      }
+    }
+  }
+}

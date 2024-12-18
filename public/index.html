@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <title>基建施工产品</title>
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- <script defer="defer" src="https://static-test.bimface.com/api/JSHostConfig.js" charset="utf-8"></script> -->
+    <!-- <script defer="defer" src="`https://static-test.bimface.com/api/BimfaceSDKLoader/BimfaceSDKLoader@latest-release.js`" charset="utf-8"></script> -->
+    <script type="text/javascript">
+      const script = document.createElement('script')
+      const hostName = window.location.hostname
+      const isProd = hostName.includes('xmgl.glodon.com')
+      script.src = `https://${isProd ? 'static' : 'static-test'}.bimface.com/api/BimfaceSDKLoader/BimfaceSDKLoader@latest-release.js`
+      script.defer = 'defer'
+      document.body.appendChild(script)
+      // (function() {
+      //   // 高版本chrome浏览器内置Report对象，会与jssdk内置的Report对象产生冲突，最简单的方法是删除它。
+      //   delete window.Report;
+      //   window.Report = window.Report || [];
+      //   window.Report.methods = "_init track defineCom listen onError changeApi".split(
+      //     " "
+      //   );
+      //   window.Report.factory = function(b) {
+      //     return function() {
+      //       var a = Array.prototype.slice.call(arguments);
+      //       a.unshift(b);
+      //       window.Report.push(a);
+      //       return window.Report;
+      //     };
+      //   };
+      //   for (var i = 0; i < window.Report.methods.length; i++) {
+      //     var key = window.Report.methods[i];
+      //     window.Report[key] = window.Report.factory(key);
+      //   }
+      //   window.Report.load = function(b, x) {
+      //     if (!document.getElementById("report-js")) {
+      //       var a = document.createElement("script");
+      //       var verDate = new Date();
+      //       var verStr =
+      //         verDate.getFullYear().toString() +
+      //         verDate.getMonth().toString() +
+      //         verDate.getDate().toString();
+
+      //       a.type = "text/javascript";
+      //       a.id = "report-js";
+      //       a.async = !0;
+      //       a.src =
+      //         "https://aecore-static.glodon.com/prod-ops/sdk/isv/wdc.js?v=" +
+      //         verStr;
+      //       a.onerror = function() {
+      //         console.log("report sdk load failed");
+      //       };
+      //       var c = document.getElementsByTagName("script")[0];
+      //       c.parentNode.insertBefore(a, c);
+      //       window.Report._init(b);
+      //     }
+      //   };
+      //   const hostName = window.location.hostname
+      //   const isProd = hostName.includes('xmgl.glodon.com')
+      //   window.Report.load({ env:  isProd ? 'prod' : 'test' })
+      // })();
+    </script>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

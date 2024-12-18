@@ -1,0 +1,271 @@
+// 文件夹
+.icon-folder {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  height: 14px;
+  width: 14px;
+  background: url('~@/assets/images/icon-folder.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-add {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: baseline;
+  height: 16px;
+  width: 16px;
+  background: url('~@/assets/images/icon-add.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-focus {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  height: 14px;
+  width: 12px;
+  background: url('~@/assets/images/icon-focus.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-copy {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: baseline;
+  height: 16px;
+  width: 16px;
+  background: url('~@/assets/images/icon-copy.png') no-repeat left center;
+  background-size: 100%;
+  cursor: pointer;
+}
+
+.icon-edit {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  height: 14px;
+  width: 12px;
+  background: url('~@/assets/images/icon-edit.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-delete {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  height: 14px;
+  width: 12px;
+  background: url('~@/assets/images/icon-delete.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-delete-card {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  height: 14px;
+  width: 12px;
+  background: url('~@/assets/images/icon-delete-card.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-left-side {
+  display: inline-block;
+  // margin-right: 5px;
+  vertical-align: baseline;
+  height: 50px;
+  width: 25px;
+  background: url('~@/assets/images/icon-left-side.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-right-side {
+  display: inline-block;
+  // margin-right: 5px;
+  vertical-align: baseline;
+  height: 50px;
+  width: 25px;
+  background: url('~@/assets/images/icon-right-side.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-loading {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  height: 14px;
+  width: 14px;
+  background: url('~@/assets/images/icon-loading.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-upload-tip {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  height: 14px;
+  width: 14px;
+  background: url('~@/assets/images/icon-upload-tip.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-calendar {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  height: 14px;
+  width: 14px;
+  background: url('~@/assets/images/icon-calendar.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-measure-point {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  background: url('~@/assets/images/icon-measure-point.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-measure-polyline-distance {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  background: url('~@/assets/images/icon-measure-polyline-distance.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-measure-area {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  background: url('~@/assets/images/icon-measure-area.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-measure-triangle {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  background: url('~@/assets/images/icon-measure-triangle.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-measure-angle {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  background: url('~@/assets/images/icon-measure-angle.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-measure-delete {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  background: url('~@/assets/images/icon-measure-delete.png') no-repeat left center;
+  background-size: 100%;
+}
+
+
+.icon-measure-projected {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  background: url('~@/assets/images/icon-measure-projected.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-measure-spatial {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  background: url('~@/assets/images/icon-measure-spatial.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-measure-surface {
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  background: url('~@/assets/images/icon-measure-surface.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-measure-expand {
+  display: inline-block;
+  vertical-align: middle;
+  height: 3px;
+  width: 3px;
+  background: url('~@/assets/images/icon-measure-expand.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-3d {
+  display: inline-block;
+  vertical-align: middle;
+  height: 26px;
+  width: 26px;
+  background: url('~@/assets/images/icon-3d.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-2d {
+  display: inline-block;
+  vertical-align: middle;
+  height: 26px;
+  width: 26px;
+  background: url('~@/assets/images/icon-2d.png') no-repeat left center;
+  background-size: 100%;
+}
+
+.icon-drop {
+  display: inline-block;
+  vertical-align: middle;
+  height: 14px;
+  width: 12px;
+  background: url('~@/assets/images/icon-drop.png') no-repeat left center;
+  background-size: 100%;
+}
+.icon-upload {
+  display: inline-block;
+  vertical-align: middle;
+  height: 24px;
+  width: 24px;
+  background: url('~@/assets/images/icon-upload.png') no-repeat left center;
+  background-size: 100%;
+}
+.icon-error {
+  display: inline-block;
+  vertical-align: middle;
+  height: 14px;
+  width: 14px;
+  background: url('~@/assets/images/icon-error.png') no-repeat left center;
+  background-size: 100%;
+}
+.icon-fold-left {
+  display: inline-block;
+  vertical-align: middle;
+  height: 22px;
+  width: 22px;
+  background: url('~@/assets/images/icon-fold-left.png') no-repeat left center;
+  background-size: 100%;
+}
+.icon-fold-right {
+  display: inline-block;
+  vertical-align: middle;
+  height: 22px;
+  width: 22px;
+  background: url('~@/assets/images/icon-fold-right.png') no-repeat left center;
+  background-size: 100%;
+}

@@ -1,0 +1,23 @@
+{
+  "vueCompilerOptions": {
+    "target": 2.7
+    // "target": 2, // For Vue version <= 2.6.14
+  },
+  "compilerOptions": {
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    // 解决prettier对于装饰器语法的警告
+    "experimentalDecorators": true
+  },
+  //提高 IDE 性能
+  "exclude": [
+    // 要排除的文件
+    "node_modules",
+    "dist",
+    "**/node_modules/*",
+    "/public/zpert"
+  ]
+}

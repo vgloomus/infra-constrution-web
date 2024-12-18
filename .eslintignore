@@ -1,0 +1,3 @@
+#斑马相关js
+/public/*/**.js
+/src/views/ProjectInfo/components/CollisionResults/simsdk.js

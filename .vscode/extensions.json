@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "vue.volar",
+    "vscode-icons-team.vscode-icons",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "xabikos.javascriptsnippets"
+  ]
+}
